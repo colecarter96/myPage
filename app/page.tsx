@@ -1,5 +1,4 @@
 import { CopyEmailButton } from "./components/CopyEmailButton";
-import { InstagramLink } from "./components/InstagramLink";
 
 const emails = [
   { address: "colescarter@gmail.com", label: "Personal Email" },
@@ -18,10 +17,14 @@ export default function Home() {
         </header>
 
         <nav className="flex w-full flex-col gap-3 pt-30" aria-label="Links">
-          <InstagramLink
-            username="colecartr"
+          <a
+            href="https://instagram.com/colecartr"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex min-h-12 w-full active:bg-zinc-100 items-center justify-center rounded-xs border border-black text-pink-400"
-          />
+          >
+            Instagram
+          </a>
           <a
             href="https://www.tiktok.com/@colecartr"
             target="_blank"
