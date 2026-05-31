@@ -8,8 +8,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "My Page",
-  description: "Personal link page",
+  title: "Cole Carter",
+  description: "I'm an alchemist",
 };
 
 export default function RootLayout({
